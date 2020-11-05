@@ -1,0 +1,67 @@
+# Reading pref.tcl
+# do Task2_run_msim_gate_verilog.do
+# if {[file exists gate_work]} {
+# 	vdel -lib gate_work -all
+# }
+# vlib gate_work
+# vmap work gate_work
+# Model Technology ModelSim - Intel FPGA Edition vmap 2020.1 Lib Mapping Utility 2020.02 Feb 28 2020
+# vmap work gate_work 
+# Copying C:/intelFPGA_lite/20.1/modelsim_ase/win32aloem/../modelsim.ini to modelsim.ini
+# Modifying modelsim.ini
+# 
+# vlog -vlog01compat -work work +incdir+. {Task2.vo}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 22:48:43 on Nov 05,2020
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+." Task2.vo 
+# -- Compiling module full_adder
+# -- Compiling module hard_block
+# 
+# Top level modules:
+# 	full_adder
+# End time: 22:48:44 on Nov 05,2020, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# 
+# vlog -vlog01compat -work work +incdir+C:/Users/hered/Desktop/shitty\ projs\ 2.0/MARS/Lab10/Task2 {C:/Users/hered/Desktop/shitty projs 2.0/MARS/Lab10/Task2/full_adder.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 22:48:44 on Nov 05,2020
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/hered/Desktop/shitty projs 2.0/MARS/Lab10/Task2" C:/Users/hered/Desktop/shitty projs 2.0/MARS/Lab10/Task2/full_adder.v 
+# -- Compiling module full_adder
+# 
+# Top level modules:
+# 	full_adder
+# End time: 22:48:45 on Nov 05,2020, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/Users/hered/Desktop/shitty\ projs\ 2.0/MARS/Lab10/Task2 {C:/Users/hered/Desktop/shitty projs 2.0/MARS/Lab10/Task2/full_adder_testbench.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 22:48:45 on Nov 05,2020
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/hered/Desktop/shitty projs 2.0/MARS/Lab10/Task2" C:/Users/hered/Desktop/shitty projs 2.0/MARS/Lab10/Task2/full_adder_testbench.v 
+# -- Compiling module full_adder_testbench
+# 
+# Top level modules:
+# 	full_adder_testbench
+# End time: 22:48:46 on Nov 05,2020, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# 
+# vsim -t 1ps -L altera_ver -L altera_lnsim_ver -L fiftyfivenm_ver -L gate_work -L work -voptargs="+acc"  full_adder_testbench
+# vsim -t 1ps -L altera_ver -L altera_lnsim_ver -L fiftyfivenm_ver -L gate_work -L work -voptargs=""+acc"" full_adder_testbench 
+# Start time: 22:48:46 on Nov 05,2020
+# Loading work.full_adder_testbench
+# Loading work.full_adder
+# 
+# add wave *
+# view structure
+# .main_pane.structure.interior.cs.body.struct
+# view signals
+# .main_pane.objects.interior.cs.body.tree
+# run -all
+# a= 0 b = 1 carry_in = 0 sum = 1 carry_out = 0
+# a= 0 b = 1 carry_in = 1 sum = 0 carry_out = 1
+# a= 1 b = 0 carry_in = 1 sum = 0 carry_out = 1
+# a= 1 b = 0 carry_in = 0 sum = 1 carry_out = 0
+# a= 0 b = 0 carry_in = 0 sum = 0 carry_out = 0
+# a= 0 b = 0 carry_in = 1 sum = 1 carry_out = 0
+# a= 1 b = 1 carry_in = 1 sum = 1 carry_out = 1
+# a= 1 b = 1 carry_in = 0 sum = 0 carry_out = 1
+# End time: 22:49:02 on Nov 05,2020, Elapsed time: 0:00:16
+# Errors: 0, Warnings: 0

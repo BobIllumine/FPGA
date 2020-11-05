@@ -1,0 +1,83 @@
+m255
+K4
+z2
+!s11f vlog 2020.1 2020.02, Feb 28 2020
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dC:/Users/hered/Desktop/shitty projs 2.0/MARS/Lab10/simulation/modelsim
+vhalf_adder
+Z1 !s110 1604597901
+!i10b 1
+!s100 o0ecEP5`_hchOTPiYVa9N0
+Z2 !s11b Dg1SIo80bB@j0V0VzS_@n1
+IA^fnMcMPf[G1hWMMQK0E[3
+Z3 VDg1SIo80bB@j0V0VzS_@n1
+R0
+w1604596905
+8C:/Users/hered/Desktop/shitty projs 2.0/MARS/Lab10/half_adder.v
+FC:/Users/hered/Desktop/shitty projs 2.0/MARS/Lab10/half_adder.v
+!i122 1
+L0 1 11
+Z4 OV;L;2020.1;71
+r1
+!s85 0
+31
+Z5 !s108 1604597901.000000
+!s107 C:/Users/hered/Desktop/shitty projs 2.0/MARS/Lab10/half_adder.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/hered/Desktop/shitty projs 2.0/MARS/Lab10|C:/Users/hered/Desktop/shitty projs 2.0/MARS/Lab10/half_adder.v|
+!i113 1
+Z6 o-vlog01compat -work work
+Z7 !s92 -vlog01compat -work work {+incdir+C:/Users/hered/Desktop/shitty projs 2.0/MARS/Lab10}
+Z8 tCvgOpt 0
+vhalf_adder_testbench
+!s110 1604597902
+!i10b 1
+!s100 KQ8L@UO:HaanoYi2m;0f83
+R2
+IDK4HfSPYP41LAmF0F:0iW3
+R3
+R0
+w1604597027
+8C:/Users/hered/Desktop/shitty projs 2.0/MARS/Lab10/half_adder_testbench.v
+FC:/Users/hered/Desktop/shitty projs 2.0/MARS/Lab10/half_adder_testbench.v
+!i122 2
+L0 1 33
+R4
+r1
+!s85 0
+31
+!s108 1604597902.000000
+!s107 C:/Users/hered/Desktop/shitty projs 2.0/MARS/Lab10/half_adder_testbench.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/hered/Desktop/shitty projs 2.0/MARS/Lab10|C:/Users/hered/Desktop/shitty projs 2.0/MARS/Lab10/half_adder_testbench.v|
+!i113 1
+R6
+R7
+R8
+vhard_block
+R1
+!i10b 1
+!s100 c?ez6l5WnfzYJHMONZo4S2
+R2
+IS7_ZSaRM1ZjNekQYbNXk31
+R3
+R0
+w1604597891
+8Task1.vo
+FTask1.vo
+!i122 0
+L0 267 45
+R4
+r1
+!s85 0
+31
+R5
+!s107 Task1.vo|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+.|Task1.vo|
+!i113 1
+R6
+!s92 -vlog01compat -work work +incdir+.
+R8

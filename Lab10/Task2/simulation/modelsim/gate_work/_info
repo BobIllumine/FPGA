@@ -1,0 +1,83 @@
+m255
+K4
+z2
+!s11f vlog 2020.1 2020.02, Feb 28 2020
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dC:/Users/hered/Desktop/shitty projs 2.0/MARS/Lab10/Task2/simulation/modelsim
+vfull_adder
+!s110 1604598525
+!i10b 1
+!s100 B4aJKn4o]8ddaS:b8?VAl3
+Z1 !s11b Dg1SIo80bB@j0V0VzS_@n1
+I:7LLWa]c>^`R@^9^ZYkiC3
+Z2 VDg1SIo80bB@j0V0VzS_@n1
+R0
+w1604598460
+8C:/Users/hered/Desktop/shitty projs 2.0/MARS/Lab10/Task2/full_adder.v
+FC:/Users/hered/Desktop/shitty projs 2.0/MARS/Lab10/Task2/full_adder.v
+!i122 1
+L0 1 12
+Z3 OV;L;2020.1;71
+r1
+!s85 0
+31
+!s108 1604598524.000000
+!s107 C:/Users/hered/Desktop/shitty projs 2.0/MARS/Lab10/Task2/full_adder.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/hered/Desktop/shitty projs 2.0/MARS/Lab10/Task2|C:/Users/hered/Desktop/shitty projs 2.0/MARS/Lab10/Task2/full_adder.v|
+!i113 1
+Z4 o-vlog01compat -work work
+Z5 !s92 -vlog01compat -work work {+incdir+C:/Users/hered/Desktop/shitty projs 2.0/MARS/Lab10/Task2}
+Z6 tCvgOpt 0
+vfull_adder_testbench
+!s110 1604598526
+!i10b 1
+!s100 lGdi=nATGa0`67e_bfc_R0
+R1
+INaA1:dB[8>CL_nM9OK]Ug3
+R2
+R0
+w1604598257
+8C:/Users/hered/Desktop/shitty projs 2.0/MARS/Lab10/Task2/full_adder_testbench.v
+FC:/Users/hered/Desktop/shitty projs 2.0/MARS/Lab10/Task2/full_adder_testbench.v
+!i122 2
+L0 1 42
+R3
+r1
+!s85 0
+31
+!s108 1604598525.000000
+!s107 C:/Users/hered/Desktop/shitty projs 2.0/MARS/Lab10/Task2/full_adder_testbench.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/hered/Desktop/shitty projs 2.0/MARS/Lab10/Task2|C:/Users/hered/Desktop/shitty projs 2.0/MARS/Lab10/Task2/full_adder_testbench.v|
+!i113 1
+R4
+R5
+R6
+vhard_block
+!s110 1604598524
+!i10b 1
+!s100 ?hIcKzJmmhzn<g:e>O4LJ1
+R1
+Ib6ao<nGE@:l`bO0b@GnIf3
+R2
+R0
+w1604598510
+8Task2.vo
+FTask2.vo
+!i122 0
+L0 283 45
+R3
+r1
+!s85 0
+31
+!s108 1604598523.000000
+!s107 Task2.vo|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+.|Task2.vo|
+!i113 1
+R4
+!s92 -vlog01compat -work work +incdir+.
+R6
