@@ -1,0 +1,24 @@
+.text
+	li $v0, 5
+	syscall
+	move $a0, $v0
+	
+	jal sum
+	li $v0, 1
+	syscall
+	li $v0, 10
+	syscall
+	
+	sum:	bge $a0, 1, rec
+		jr $ra
+	
+	rec: 	subi $sp, $sp, 8
+		sw $ra, 0($sp)
+		sw $a0, 4($sp)
+		addi $a0, $a0, -1
+		jal sum
+		lw $a1, 4($sp)
+		add $a0, $a0, $a1
+		lw $ra, 0($sp)
+		addi $sp, $sp, 8
+		jr $ra
