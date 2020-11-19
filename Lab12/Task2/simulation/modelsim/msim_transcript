@@ -1,0 +1,118 @@
+# Reading pref.tcl
+# do Task2_run_msim_gate_verilog.do
+# if {[file exists gate_work]} {
+# 	vdel -lib gate_work -all
+# }
+# vlib gate_work
+# vmap work gate_work
+# Model Technology ModelSim - Intel FPGA Edition vmap 2020.1 Lib Mapping Utility 2020.02 Feb 28 2020
+# vmap work gate_work 
+# Copying C:/intelFPGA_lite/20.1/modelsim_ase/win32aloem/../modelsim.ini to modelsim.ini
+# Modifying modelsim.ini
+# 
+# vlog -vlog01compat -work work +incdir+. {Task2.vo}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 19:53:00 on Nov 19,2020
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+." Task2.vo 
+# -- Compiling module alu
+# -- Compiling module hard_block
+# 
+# Top level modules:
+# 	alu
+# End time: 19:53:00 on Nov 19,2020, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# 
+# vlog -vlog01compat -work work +incdir+C:/Users/hered/Desktop/shitty\ projs\ 2.0/MARS/FPGA/Lab12/Task2 {C:/Users/hered/Desktop/shitty projs 2.0/MARS/FPGA/Lab12/Task2/alu_testbench.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 19:53:00 on Nov 19,2020
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/hered/Desktop/shitty projs 2.0/MARS/FPGA/Lab12/Task2" C:/Users/hered/Desktop/shitty projs 2.0/MARS/FPGA/Lab12/Task2/alu_testbench.v 
+# -- Compiling module alu_testbench
+# 
+# Top level modules:
+# 	alu_testbench
+# End time: 19:53:00 on Nov 19,2020, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/Users/hered/Desktop/shitty\ projs\ 2.0/MARS/FPGA/Lab12/Task2 {C:/Users/hered/Desktop/shitty projs 2.0/MARS/FPGA/Lab12/Task2/add.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 19:53:00 on Nov 19,2020
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/hered/Desktop/shitty projs 2.0/MARS/FPGA/Lab12/Task2" C:/Users/hered/Desktop/shitty projs 2.0/MARS/FPGA/Lab12/Task2/add.v 
+# -- Compiling module add
+# 
+# Top level modules:
+# 	add
+# End time: 19:53:00 on Nov 19,2020, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/Users/hered/Desktop/shitty\ projs\ 2.0/MARS/FPGA/Lab12/Task2 {C:/Users/hered/Desktop/shitty projs 2.0/MARS/FPGA/Lab12/Task2/alu.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 19:53:00 on Nov 19,2020
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/hered/Desktop/shitty projs 2.0/MARS/FPGA/Lab12/Task2" C:/Users/hered/Desktop/shitty projs 2.0/MARS/FPGA/Lab12/Task2/alu.v 
+# -- Compiling module alu
+# 
+# Top level modules:
+# 	alu
+# End time: 19:53:00 on Nov 19,2020, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/Users/hered/Desktop/shitty\ projs\ 2.0/MARS/FPGA/Lab12/Task2 {C:/Users/hered/Desktop/shitty projs 2.0/MARS/FPGA/Lab12/Task2/glob.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 19:53:00 on Nov 19,2020
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/hered/Desktop/shitty projs 2.0/MARS/FPGA/Lab12/Task2" C:/Users/hered/Desktop/shitty projs 2.0/MARS/FPGA/Lab12/Task2/glob.v 
+# -- Compiling module glob
+# 
+# Top level modules:
+# 	glob
+# End time: 19:53:00 on Nov 19,2020, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/Users/hered/Desktop/shitty\ projs\ 2.0/MARS/FPGA/Lab12/Task2 {C:/Users/hered/Desktop/shitty projs 2.0/MARS/FPGA/Lab12/Task2/mux.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 19:53:01 on Nov 19,2020
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/hered/Desktop/shitty projs 2.0/MARS/FPGA/Lab12/Task2" C:/Users/hered/Desktop/shitty projs 2.0/MARS/FPGA/Lab12/Task2/mux.v 
+# -- Compiling module mux
+# 
+# Top level modules:
+# 	mux
+# End time: 19:53:01 on Nov 19,2020, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/Users/hered/Desktop/shitty\ projs\ 2.0/MARS/FPGA/Lab12/Task2 {C:/Users/hered/Desktop/shitty projs 2.0/MARS/FPGA/Lab12/Task2/srl.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 19:53:01 on Nov 19,2020
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/hered/Desktop/shitty projs 2.0/MARS/FPGA/Lab12/Task2" C:/Users/hered/Desktop/shitty projs 2.0/MARS/FPGA/Lab12/Task2/srl.v 
+# -- Compiling module srl
+# 
+# Top level modules:
+# 	srl
+# End time: 19:53:01 on Nov 19,2020, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/Users/hered/Desktop/shitty\ projs\ 2.0/MARS/FPGA/Lab12/Task2 {C:/Users/hered/Desktop/shitty projs 2.0/MARS/FPGA/Lab12/Task2/sub.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 19:53:01 on Nov 19,2020
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/hered/Desktop/shitty projs 2.0/MARS/FPGA/Lab12/Task2" C:/Users/hered/Desktop/shitty projs 2.0/MARS/FPGA/Lab12/Task2/sub.v 
+# -- Compiling module sub
+# 
+# Top level modules:
+# 	sub
+# End time: 19:53:01 on Nov 19,2020, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# 
+# vsim -t 1ps -L altera_ver -L altera_lnsim_ver -L fiftyfivenm_ver -L gate_work -L work -voptargs="+acc"  alu_testbench
+# vsim -t 1ps -L altera_ver -L altera_lnsim_ver -L fiftyfivenm_ver -L gate_work -L work -voptargs=""+acc"" alu_testbench 
+# Start time: 19:53:01 on Nov 19,2020
+# Loading work.alu_testbench
+# Loading work.glob
+# Loading work.alu
+# Loading work.add
+# Loading work.sub
+# Loading work.srl
+# Loading work.mux
+# 
+# add wave *
+# view structure
+# .main_pane.structure.interior.cs.body.struct
+# view signals
+# .main_pane.objects.interior.cs.body.tree
+# run -all
+# rs = 00000 rt = 00001 rd = 00010 r0 = 00000000000000000000000000000001 r1 = 00000000000000000000000000000010 r2 = 00000000000000000000000000000000 funct = 100000 shamt = xxxxx
+# rs = 00000 rt = 00010 rd = 00001 r0 = 00000000000000000000000000000001 r1 = 00000000000000000000000000000010 r2 = 00000000000000000000000000000000 funct = 100000 shamt = xxxxx
+# rs = 00000 rt = 00001 rd = 00010 r0 = 00000000000000000000000000000001 r1 = 00000000000000000000000000000010 r2 = 00000000000000000000000000000000 funct = 000010 shamt = 00010
+# rs = 00001 rt = 00010 rd = 00000 r0 = 00000000000000000000000000000001 r1 = 00000000000000000000000000000010 r2 = 00000000000000000000000000000000 funct = 100010 shamt = 00010
+# End time: 19:54:07 on Nov 19,2020, Elapsed time: 0:01:06
+# Errors: 0, Warnings: 0

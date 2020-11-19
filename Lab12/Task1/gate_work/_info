@@ -1,0 +1,179 @@
+m255
+K4
+z2
+!s11f vlog 2020.1 2020.02, Feb 28 2020
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dC:/Users/hered/Desktop/shitty projs 2.0/MARS/FPGA/Lab12/Task1
+vadd
+Z1 !s110 1605797295
+!i10b 1
+!s100 39>]FHklkVd=H7gzYHak83
+Z2 !s11b Dg1SIo80bB@j0V0VzS_@n1
+IWzgb5bf6el>2[@LmHb^Mm3
+Z3 VDg1SIo80bB@j0V0VzS_@n1
+R0
+w1605793283
+8C:/Users/hered/Desktop/shitty projs 2.0/MARS/FPGA/Lab12/Task1/add.v
+FC:/Users/hered/Desktop/shitty projs 2.0/MARS/FPGA/Lab12/Task1/add.v
+!i122 3
+Z4 L0 1 6
+Z5 OV;L;2020.1;71
+r1
+!s85 0
+31
+Z6 !s108 1605797294.000000
+!s107 C:/Users/hered/Desktop/shitty projs 2.0/MARS/FPGA/Lab12/Task1/add.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/hered/Desktop/shitty projs 2.0/MARS/FPGA/Lab12/Task1|C:/Users/hered/Desktop/shitty projs 2.0/MARS/FPGA/Lab12/Task1/add.v|
+!i113 1
+Z7 o-vlog01compat -work work
+Z8 !s92 -vlog01compat -work work {+incdir+C:/Users/hered/Desktop/shitty projs 2.0/MARS/FPGA/Lab12/Task1}
+Z9 tCvgOpt 0
+valu
+Z10 !s110 1605797294
+!i10b 1
+!s100 im9Db@>_@3:o^8nidOlJ63
+R2
+I]Tljm>j@HeE^Y>M>>a]KW0
+R3
+R0
+w1605795948
+8C:/Users/hered/Desktop/shitty projs 2.0/MARS/FPGA/Lab12/Task1/alu.v
+FC:/Users/hered/Desktop/shitty projs 2.0/MARS/FPGA/Lab12/Task1/alu.v
+!i122 2
+L0 1 17
+R5
+r1
+!s85 0
+31
+R6
+!s107 C:/Users/hered/Desktop/shitty projs 2.0/MARS/FPGA/Lab12/Task1/alu.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/hered/Desktop/shitty projs 2.0/MARS/FPGA/Lab12/Task1|C:/Users/hered/Desktop/shitty projs 2.0/MARS/FPGA/Lab12/Task1/alu.v|
+!i113 1
+R7
+R8
+R9
+valu_testbench
+R10
+!i10b 1
+!s100 RB<2:_Ac2AP5R>8bo@2XE1
+R2
+IQzlAVeCSEKO2KV99<[VYJ3
+R3
+R0
+w1605792419
+8C:/Users/hered/Desktop/shitty projs 2.0/MARS/FPGA/Lab12/Task1/alu_testbench.v
+FC:/Users/hered/Desktop/shitty projs 2.0/MARS/FPGA/Lab12/Task1/alu_testbench.v
+!i122 1
+L0 1 47
+R5
+r1
+!s85 0
+31
+R6
+!s107 C:/Users/hered/Desktop/shitty projs 2.0/MARS/FPGA/Lab12/Task1/alu_testbench.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/hered/Desktop/shitty projs 2.0/MARS/FPGA/Lab12/Task1|C:/Users/hered/Desktop/shitty projs 2.0/MARS/FPGA/Lab12/Task1/alu_testbench.v|
+!i113 1
+R7
+R8
+R9
+vhard_block
+R10
+!i10b 1
+!s100 n[KbOA=j4mWSgUO^7Z[@Q0
+R2
+IDP0YIQ9`l[9<EI2:EF:Jd1
+R3
+R0
+w1605797288
+8Task1.vo
+FTask1.vo
+!i122 0
+L0 7147 45
+R5
+r1
+!s85 0
+31
+R6
+!s107 Task1.vo|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+.|Task1.vo|
+!i113 1
+R7
+!s92 -vlog01compat -work work +incdir+.
+R9
+vmux
+R1
+!i10b 1
+!s100 8J[aICWjng?HB_BBTNYf21
+R2
+I4@?2eT=@KIVeWB0`Mj7U31
+R3
+R0
+w1605797262
+8C:/Users/hered/Desktop/shitty projs 2.0/MARS/FPGA/Lab12/Task1/mux.v
+FC:/Users/hered/Desktop/shitty projs 2.0/MARS/FPGA/Lab12/Task1/mux.v
+!i122 4
+L0 1 20
+R5
+r1
+!s85 0
+31
+Z11 !s108 1605797295.000000
+!s107 C:/Users/hered/Desktop/shitty projs 2.0/MARS/FPGA/Lab12/Task1/mux.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/hered/Desktop/shitty projs 2.0/MARS/FPGA/Lab12/Task1|C:/Users/hered/Desktop/shitty projs 2.0/MARS/FPGA/Lab12/Task1/mux.v|
+!i113 1
+R7
+R8
+R9
+vsrl
+R1
+!i10b 1
+!s100 `lVcg8z:iXJcY7k?Q41FA3
+R2
+IIMj6DlgFA==S08RL4lURN1
+R3
+R0
+w1605793907
+8C:/Users/hered/Desktop/shitty projs 2.0/MARS/FPGA/Lab12/Task1/srl.v
+FC:/Users/hered/Desktop/shitty projs 2.0/MARS/FPGA/Lab12/Task1/srl.v
+!i122 6
+L0 1 7
+R5
+r1
+!s85 0
+31
+R11
+!s107 C:/Users/hered/Desktop/shitty projs 2.0/MARS/FPGA/Lab12/Task1/srl.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/hered/Desktop/shitty projs 2.0/MARS/FPGA/Lab12/Task1|C:/Users/hered/Desktop/shitty projs 2.0/MARS/FPGA/Lab12/Task1/srl.v|
+!i113 1
+R7
+R8
+R9
+vsub
+R1
+!i10b 1
+!s100 mA:hnBBIm`0Beo59ebkPF1
+R2
+I>L:8eWQ<Rdgee9M]1[EPo3
+R3
+R0
+w1605793663
+8C:/Users/hered/Desktop/shitty projs 2.0/MARS/FPGA/Lab12/Task1/sub.v
+FC:/Users/hered/Desktop/shitty projs 2.0/MARS/FPGA/Lab12/Task1/sub.v
+!i122 5
+R4
+R5
+r1
+!s85 0
+31
+R11
+!s107 C:/Users/hered/Desktop/shitty projs 2.0/MARS/FPGA/Lab12/Task1/sub.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/hered/Desktop/shitty projs 2.0/MARS/FPGA/Lab12/Task1|C:/Users/hered/Desktop/shitty projs 2.0/MARS/FPGA/Lab12/Task1/sub.v|
+!i113 1
+R7
+R8
+R9
